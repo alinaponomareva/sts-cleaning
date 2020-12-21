@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>СТС-Уборка | Услуги</title>
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <div class="sprite" style="display: none;">
+    <include src="build/images/sprite.svg"></include>
+  </div>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <a class="header__logo logo" href="#">
+          <img class="logo__image" src="images/logo.svg" alt="Логотип СТС" width="156" height="23">
+        </a>
+        <button class="main-menu__btn">
+          <span class="main-menu__btn-line"></span>
+        </button>
+        <div class="header__mobile-wrapper">
+          <nav class="header__main-menu main-menu">
+            <ul class="main-menu__list">
+              <li class="main-menu__item">
+                <a class="main-menu__item-link" href="#">Главная</a>
+              </li>
+              <li class="main-menu__item main-menu__item--current">
+                <a class="main-menu__item-link" href="#">Услуги</a>
+              </li>
+              <li class="main-menu__item">
+                <a class="main-menu__item-link" href="#">Участие в тендерах</a>
+              </li>
+              <li class="main-menu__item">
+                <a class="main-menu__item-link" href="#">О нас</a>
+              </li>
+              <li class="main-menu__item">
+                <a class="main-menu__item-link" href="#">Блог</a>
+              </li>
+              <li class="main-menu__item">
+                <a class="main-menu__item-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__contacts">
+            <!-- <div class="header__location location"> -->
+              <div class="header__location location">
+                <div class="location__select">
+                  <input class="location__select-current" type="text" id="location-input" name="location-select-value" placeholder="Москва и область" readonly>
+                  <div class="location__select-arrow"></div>
+                  <ul class="location__dropdown-list">
+                    <li class="location__dropdown-item location__dropdown-item--active">Москва и область
+                      <!-- <a class="location__dropdown-link" href="#">Москва и область</a> -->
+                      </li>
+                    <li class="location__dropdown-item">Санкт-Петербург и область
+                      <!-- <a class="location__dropdown-link" href="#">Санкт-Петербург и область</a> -->
+                    </li>
+                    <li class="location__dropdown-item">Новосибирск и область
+                      <!-- <a class="location__dropdown-link" href="#">Новосибирск и область</a> -->
+                    </li>
+                    <li class="location__dropdown-item">Екатеринбург и область
+                      <!-- <a class="location__dropdown-link" href="#">Екатеринбург и область</a> -->
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- <select class="location__select" name="location" id="location">
+                <option class="location__item" value="#" selected>Москва и область</option>
+                <option class="location__item" value="#">Санкт-Петербург и область</option>
+                <option class="location__item" value="#">Новосибирск и область</option>
+                <option class="location__item" value="#">Екатеринбург и область</option>
+              </select> -->
+            <!-- </div> -->
+            <a class="header__tel" href="tel:+74955632345">+7 495 563-23-45</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="breadcrumps">
+      <div class="container">
+        <div class="breadcrumps__inner">
+          <ul class="breadcrumps__list">
+            <li class="breadcrumps__item">
+              <a href="#" class="breadcrumps__item-link">Главная</a>
+            </li>
+            <li class="breadcrumps__item">
+              <a href="#" class="breadcrumps__item-link">Услуги</a>
+            </li>
+            <li class="breadcrumps__item">
+              <span class="breadcrumps__item-link breadcrumps__item-link--current">Ежедневная уборка</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <section class="services">
+      <div class="container">
+        <h1 class="services__title section-title">Услуги</h1>
+        <div class="services__inner">
+          <div class="services__list">
+            <div class="services__list-inner">
+              <div class="services__list-item">
+                <h3 class="services__item-title services__item-title--active">Компаниям</h3>
+                <ul class="services__tab-list">
+                  <li class="services__tab-item services__tab-item--active">
+                    <a class="services__tab-link" href="#services-companies1">Ежедневная уборка</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#services-companies2">Промышленный клининг</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Мойка окон и фасадов</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Уборка офисов под ключ</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Послестроительная уборка</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Клининг для ТСЖ, ЖСК, УК</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Обслуживание мероприятий</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Предоставление персонала</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="services__list-item">
+                <h3 class="services__item-title">Частным клиентам</h3>
+                <ul class="services__tab-list">
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Ежедневная уборка</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Промышленный клининг</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Мойка окон и фасадов</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Уборка офисов под ключ</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Послестроительная уборка</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Клининг для ТСЖ, ЖСК, УК</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Обслуживание мероприятий</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Предоставление персонала</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="services__list-item">
+                <h3 class="services__item-title">Специальные услуги</h3>
+                <ul class="services__tab-list">
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Ежедневная уборка</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Промышленный клининг</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Мойка окон и фасадов</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Уборка офисов под ключ</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Послестроительная уборка</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Клининг для ТСЖ, ЖСК, УК</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Обслуживание мероприятий</a>
+                  </li>
+                  <li class="services__tab-item">
+                    <a class="services__tab-link" href="#">Предоставление персонала</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="services__main">
+            <div class="services__main-item services__main-item--active" id="services-companies1">
+              <h2 class="services__main-title">Ежедневная уборка</h2>
+              <div class="services__main-block">
+                <h3 class="services__block-title">Что входит в ежедневную уборку?</h3>
+                <p class="services__block-description">Заключив договор на ежедневную уборку с нашей компанией, вы можете выбрать удобные часы: мы выполним ее как до начала рабочего времени, так и после его окончания, а также в течение дня. Ежедневная уборка включает:</p>
+                <ul class="services__block-list">
+                  <li class="services__block-item">Мытье полов</li>
+                  <li class="services__block-item">Чистку сантехники</li>
+                  <li class="services__block-item">Уход за офисной техникой</li>
+                  <li class="services__block-item">Вынос мусора и другие работы</li>
+                </ul>
+                <picture>
+                  <source type="image/webp" srcset="images/content/clean.webp 1x, images/content/clean@2x.webp 2x">
+                  <img class="services__block-image" src="images/content/clean.jpg" srcset="images/content/clean@2x.jpg 2x" width="543" height="250" alt="Ежедневная уборка">
+                </picture>
+                <p class="services__block-text">СТС производит ежедневную уборку любого помещения – офисного, производственного, торгового, жилого. Наши сотрудники составят план уборки, подберут оптимальные чистящие средства для всех типов помещений и покрытий – и обеспечат ежедневный уют и комфорт.</p>
+              </div>
+            </div>
+            <div class="services__main-item" id="services-companies2">
+              <h2 class="services__main-title">Промышленный клининг</h2>
+              <div class="services__main-block">
+                <h3 class="services__block-title">Что входит в ежедневную уборку?</h3>
+                <p class="services__block-description">Заключив договор на ежедневную уборку с нашей компанией, вы можете выбрать удобные часы: мы выполним ее как до начала рабочего времени, так и после его окончания, а также в течение дня. Ежедневная уборка включает:</p>
+                <ul class="services__block-list">
+                  <li class="services__block-item">Мытье полов</li>
+                  <li class="services__block-item">Чистку сантехники</li>
+                  <li class="services__block-item">Уход за офисной техникой</li>
+                  <li class="services__block-item">Вынос мусора и другие работы</li>
+                </ul>
+                <picture>
+                  <source type="image/webp" srcset="images/content/clean.webp 1x, images/content/clean@2x.webp 2x">
+                  <img class="services__block-image" src="images/content/clean.jpg" srcset="images/content/clean@2x.jpg 2x" width="543" height="250" alt="Ежедневная уборка">
+                </picture>
+                <p class="services__block-text">СТС производит ежедневную уборку любого помещения – офисного, производственного, торгового, жилого. Наши сотрудники составят план уборки, подберут оптимальные чистящие средства для всех типов помещений и покрытий – и обеспечат ежедневный уют и комфорт.</p>
+              </div>
+            </div>
+          </div>
+          <div class="services__order">
+            <button class="services__order-btn btn">Заказать уборку</button>
+            <div class="services__order-price price">
+              <div class="price__inner">
+                <h4 class="price__title">Стоимость:</h4>
+                <div class="price__calc">
+                  <span class="price__calc-from">от</span>
+                  <span class="price__calc-initial">28</span>
+                  <span class="price__calc-currency">&#8381;</span>
+                  <span class="price__calc-dash">-</span>
+                  <span class="price__calc-measureinitial">1</span>
+                  <span class="price__calc-measure">м<sup>2</sup></span>
+                </div>
+                <div class="price__min">
+                  <span class="price__min-title">min:</span>
+                  <span class="price__min-amount">8000</span>
+                  <span class="price__min-currency">&#8381;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="container">
+        <h2 class="advantages__title section-title">Более 400 клиентов на<br>постоянном обслуживании</h2>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <div class="advantages__icon-wrapper">
+              <svg class="advantages__item-icon" aria-hidden="true" focusable="false" width="23" height="30">
+                <use xlink:href="#icon-award"></use>
+              </svg>
+            </div>
+            <p class="advantages__item-title">Современное оборудование</p>
+            <p class="advantages__item-description">Все работы выполняются на качественном современном оборудовании</p>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__icon-wrapper">
+              <svg class="advantages__item-icon" aria-hidden="true" focusable="false" width="28" height="30">
+                <use xlink:href="#icon-guarantee"></use>
+              </svg>
+            </div>
+            <p class="advantages__item-title">Гарантия качества</p>
+            <p class="advantages__item-description">Все работы выполняются на качественном современном оборудовании</p>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__icon-wrapper">
+              <svg class="advantages__item-icon" aria-hidden="true" focusable="false" width="32" height="29">
+                <use xlink:href="#icon-qualification"></use>
+              </svg>
+            </div>
+            <p class="advantages__item-title">Квалифицированные клинеры</p>
+            <p class="advantages__item-description">Все работы выполняются на качественном современном оборудовании</p>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__icon-wrapper">
+              <svg class="advantages__item-icon" aria-hidden="true" focusable="false" width="23" height="30">
+                <use xlink:href="#icon-award"></use>
+              </svg>
+            </div>
+            <p class="advantages__item-title">Доверие и надежность</p>
+            <p class="advantages__item-description">Все работы выполняются на качественном современном оборудовании</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="portfolio__title section-title">Результаты работы</h2>
+        <!-- <div class="portfolio__buttons"> -->
+          <div class="portfolio__btn portfolio__btn--prev swiper-button-prev">
+            <img class="portfolio__btn-arrow portfolio__btn-arrow--prev" src="images/arrow.svg" alt="Листать влево">
+          </div>
+          <div class="portfolio__btn portfolio__btn--next swiper-button-next">
+            <img class="portfolio__btn-arrow portfolio__btn-arrow--next" src="images/arrow.svg" alt="Листать вправо">
+          </div>
+        <!-- </div> -->
+      </div>
+      <div class="portfolio__wrapper swiper-container">
+        <ul class="portfolio__list swiper-wrapper">
+            <li class="portfolio__item swiper-slide">
+              <a href="#" class="portfolio__item-link">
+                <picture>
+                  <source type="image/webp" srcset="images/content/case-1.webp 1x, images/content/case-1@2x.webp 2x">
+                  <img class="portfolio__item-image" src="images/content/case-1.jpg" srcset="images/content/case-1@2x.jpg 2x" width="200" height="466" alt="Работа из портфолио СТС-Уборка">
+                </picture>
+                <h5 class="portfolio__item-title">Lorem ipsum</h5>
+              </a>
+            </li>
+            <li class="portfolio__item swiper-slide">
+              <a href="#" class="portfolio__item-link">
+                <picture>
+                  <source type="image/webp" srcset="images/content/case-2.webp 1x, images/content/case-2@2x.webp 2x">
+                  <img class="portfolio__item-image" src="images/content/case-2.jpg" srcset="images/content/case-2@2x.jpg 2x" width="200" height="466" alt="Работа из портфолио СТС-Уборка">
+                </picture>
+                <h5 class="portfolio__item-title">Lorem ipsum</h5>
+              </a>
+            </li>
+            <li class="portfolio__item swiper-slide">
+              <a href="#" class="portfolio__item-link">
+                <picture>
+                  <source type="image/webp" srcset="images/content/case-3.webp 1x, images/content/case-3@2x.webp 2x">
+                  <img class="portfolio__item-image" src="images/content/case-3.jpg" srcset="images/content/case-3@2x.jpg 2x" width="200" height="466" alt="Работа из портфолио СТС-Уборка">
+                </picture>
+                <h5 class="portfolio__item-title">Lorem ipsum</h5>
+              </a>
+            </li>
+            <li class="portfolio__item swiper-slide">
+              <a href="#" class="portfolio__item-link">
+                <picture>
+                  <source type="image/webp" srcset="images/content/case-4.webp 1x, images/content/case-4@2x.webp 2x">
+                  <img class="portfolio__item-image" src="images/content/case-4.jpg" srcset="images/content/case-4@2x.jpg 2x" width="200" height="466" alt="Работа из портфолио СТС-Уборка">
+                </picture>
+                <h5 class="portfolio__item-title">Lorem ipsum</h5>
+              </a>
+            </li>
+            <li class="portfolio__item swiper-slide">
+              <a href="#" class="portfolio__item-link">
+                <picture>
+                  <source type="image/webp" srcset="images/content/case-5.webp 1x, images/content/case-5@2x.webp 2x">
+                  <img class="portfolio__item-image" src="images/content/case-5.jpg" srcset="images/content/case-5@2x.jpg 2x" width="200" height="466" alt="Работа из портфолио СТС-Уборка">
+                </picture>
+                <h5 class="portfolio__item-title">Lorem ipsum</h5>
+              </a>
+            </li>
+            <li class="portfolio__item swiper-slide">
+              <a href="#" class="portfolio__item-link">
+                <picture>
+                  <source type="image/webp" srcset="images/content/case-1.webp 1x, images/content/case-1@2x.webp 2x">
+                  <img class="portfolio__item-image" src="images/content/case-1.jpg" srcset="images/content/case-1@2x.jpg 2x" width="200" height="466" alt="Работа из портфолио СТС-Уборка">
+                </picture>
+                <h5 class="portfolio__item-title">Lorem ipsum</h5>
+              </a>
+            </li>
+            <li class="portfolio__item swiper-slide">
+              <a href="#" class="portfolio__item-link">
+                <picture>
+                  <source type="image/webp" srcset="images/content/case-2.webp 1x, images/content/case-2@2x.webp 2x">
+                  <img class="portfolio__item-image" src="images/content/case-2.jpg" srcset="images/content/case-2@2x.jpg 2x" width="200" height="466" alt="Работа из портфолио СТС-Уборка">
+                </picture>
+                <h5 class="portfolio__item-title">Lorem ipsum</h5>
+              </a>
+            </li>
+            <li class="portfolio__item swiper-slide">
+              <a href="#" class="portfolio__item-link">
+                <picture>
+                  <source type="image/webp" srcset="images/content/case-3.webp 1x, images/content/case-3@2x.webp 2x">
+                  <img class="portfolio__item-image" src="images/content/case-3.jpg" srcset="images/content/case-3@2x.jpg 2x" width="200" height="466" alt="Работа из портфолио СТС-Уборка">
+                </picture>
+                <h5 class="portfolio__item-title">Lorem ipsum</h5>
+              </a>
+            </li>
+            <li class="portfolio__item swiper-slide">
+              <a href="#" class="portfolio__item-link">
+                <picture>
+                  <source type="image/webp" srcset="images/content/case-4.webp 1x, images/content/case-4@2x.webp 2x">
+                  <img class="portfolio__item-image" src="images/content/case-4.jpg" srcset="images/content/case-4@2x.jpg 2x" width="200" height="466" alt="Работа из портфолио СТС-Уборка">
+                </picture>
+                <h5 class="portfolio__item-title">Lorem ipsum</h5>
+              </a>
+            </li>
+            <li class="portfolio__item swiper-slide">
+              <a href="#" class="portfolio__item-link">
+                <picture>
+                  <source type="image/webp" srcset="images/content/case-5.webp 1x, images/content/case-5@2x.webp 2x">
+                  <img class="portfolio__item-image" src="images/content/case-5.jpg" srcset="images/content/case-5@2x.jpg 2x" width="200" height="466" alt="Работа из портфолио СТС-Уборка">
+                </picture>
+                <h5 class="portfolio__item-title">Lorem ipsum</h5>
+              </a>
+            </li>
+        </ul>
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+    </section>
+    <section class="contact-us">
+      <div class="container">
+        <div class="contact-us__inner">
+          <picture>
+            <source type="image/webp" srcset="images/content/bg-contacts.webp 1x, images/content/bg-contacts@2x.webp 2x">
+            <img class="contact-us__image" src="images/content/bg-contacts.jpg" srcset="images/content/bg-contacts@2x.jpg 2x" width="752" height="379" alt="Уборка">
+          </picture>
+          <div class="contact-us__form-wrapper">
+            <div class="contact-us__form-inner">
+              <h3 class="contact-us__title">Не нашли подходящую услугу или не знаете с чего начать?</h3>
+              <p class="contact-us__description">Оставьте заявку и наш специалист свяжется с вами, даст полную и детальную информацию бесплатно!</p>
+              <form class="contact-us__form" action="POST">
+                <div class="contact-us__form-inputs">
+                  <input class="contact-us__form-input contact-us__form-input--name" type="text" id='client-name' placeholder="Имя">
+                  <input class="contact-us__form-input contact-us__form-input--tel" type="tel" placeholder="+ 7 999 - 888 - 77 - 66">
+                </div>
+                <input class="contact-us__btn btn" type="submit" value="Отправить">
+              </form>
+              <p class="contact-us__notice">Нажимая кнопку «Отправить» вы даете согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности.</p>
+            </div>
+            <div class="contact-us__answering">
+              <p class="contact-us__answering-text">С вами свяжутся в течение 5 минут!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container">
+        <div class="footer__top-wrapper">
+          <a class="footer__logo" href="#">
+            <img class="footer__logo-image" src="images/logo-white.svg" alt="Логотип СТС-Уборка" width="155" height="23">
+          </a>
+          <nav class="footer__menu">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Главная</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Услуги</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Участие в тендерах</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">О нас</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Блог</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer__contacts">
+            <div class="footer__tel-wrapper">
+              <a class="footer__tel" href="tel:+74955632345">+7 (495) 563-23-45</a>
+              <a class="footer__tel" href="tel:+78125632345">+7 (812) 563-23-45</a>
+            </div>
+            <div class="footer__social">
+              <a class="footer__social-link" href="#">
+                <svg class="footer__social-icon footer__social-icon--vk" width="21" height="11" focusable="false" role="img" aria-label="Ссылка на VK">
+                  <use xlink:href="#icon-vk"></use>
+                </svg>
+              </a>
+              <a class="footer__social-link" href="#">
+                <svg class="footer__social-icon footer__social-icon--fb" width="10" height="21" focusable="false" role="img" aria-label="Ссылка на Facebook">
+                  <use xlink:href="#icon-fb"></use>
+                </svg>
+              </a>
+              <a class="footer__social-link" href="#">
+                <svg class="footer__social-icon footer__social-icon--ig" width="21" height="21" focusable="false" role="img" aria-label="Ссылка на Instagram">
+                  <use xlink:href="#icon-ig"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <div class="footer__bottom-wrapper">
+          <div class="footer__copyright">
+            <span class="footer__copyright-title">&copy; СТС-Сервис.</span>
+            <span class="footer__copyright-year">2020.</span>
+            <span class="footer__copyright-rights">Все права защищены.</span>
+          </div>
+          <a class="footer__studio" href="https://www.positron-it.ru/">Сделано в студии Грохотова.</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/libs.min.js"></script>
+  <script>svg4everybody();</script>
+  <script src="js/main.min.js"></script>
+</body>
+</html>
